@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Beans Lexis</string>
+
+    <string name="welcome">Добро пожаловать</string>
+    <string name="enter_your_name">Пожалуйста, введите Ваше имя для начала теста</string>
+
+    <string name="name">Имя</string>
+    <string name="start">Начало</string>
+
+    <string name="result">Результат</string>
+    <string name="conqura">Поздравляю!</string>
+
+    <string name="finish">Финиш</string>
+
+    <string name="about_app">Приветствую тебя ! Мой дорогой пользователь. Это приложение сделанное специально для подготовки или же изучению конкретная топика фраз или же слов. Надеюсь оно поможет тебе изучить язык.</string>
+</resources>

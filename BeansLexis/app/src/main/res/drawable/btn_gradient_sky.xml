@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <solid android:color="#19FFFFFF" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+
+    <item tools:ignore="StateListReachable">
+        <shape>
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+            <solid android:color="#19FFFFFF" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient
+                android:endColor="#FF576FF6"
+                android:startColor="#FF57D9ED"
+                android:type="linear"
+                android:angle="270" />
+            <corners
+                android:radius="100dp" />
+        </shape>
+    </item>
+</layer-list>

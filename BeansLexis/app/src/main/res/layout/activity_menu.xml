@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_white"
+    tools:context=".view.MenuActivity">
+
+    <ImageButton
+        android:id="@+id/btn_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="27dp"
+        android:background="@null"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_contact_support"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_about">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@android:color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/heading_1"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="#333030" />
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_test"
+            style="@style/square_button"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_gradient_sky"
+            android:text="Тест"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_learn"
+            style="@style/primary_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_gradient_sky"
+            android:text="Учить слова"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
